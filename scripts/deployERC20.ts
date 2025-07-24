@@ -22,7 +22,6 @@ async function main() {
     await token.deployTransaction.wait();
 
     console.log(`Token deployed to: ${token.deployTransaction.hash}`);
-
 }
 
 // Main entry point for the deployment script
