@@ -21,7 +21,19 @@ async function main() {
     // Wait for the deployment transaction to be mined
     await token.deployTransaction.wait();
 
+    console.log('------- Deployment successful -------');
+    
+    console.log(`Deployer address: ${token.deployTransaction.from}`);
+
     console.log(`Token deployed to: ${token.deployTransaction.hash}`);
+
+    console.log(`Token name: ${await token.name()}`);
+
+    console.log(`Token symbol: ${await token.symbol()}`);
+
+    console.log(`Total supply: ${await token.totalSupply()}`);
+
+    console.log(`Deployed contract address: ${token.address}`);
 }
 
 // Main entry point for the deployment script

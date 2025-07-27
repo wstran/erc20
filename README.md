@@ -18,7 +18,7 @@ The token contract follows the latest Solidity version and best practices.
 
 ## 🚀 Deployment
 
-> Deploy your token with a single command:
+> Deploy your ERC-20 contract with a single command:
 
 ```bash
 npm run deploy:erc20
