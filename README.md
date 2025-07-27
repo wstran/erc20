@@ -21,4 +21,4 @@ The token contract follows the latest Solidity version and best practices.
 > Deploy your token with a single command:
 
 ```bash
-npm run deploy:erc20 sepolia
+npm run deploy:erc20
